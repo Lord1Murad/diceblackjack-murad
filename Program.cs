@@ -46,10 +46,8 @@ namespace diceblackjack
                             Console.ResetColor();
                             playAgain = Console.ReadLine().Trim().ToLower();
                             if (playAgain == "yes".Trim().ToLower())
-                            {
-                                playerPoints = 0;
-                                dealerPoints = 0;
-                            }
+                            { }
+                            else break;
                         }
                         trowOrStop = Console.ReadLine().Trim().ToLower();
                     }
@@ -68,28 +66,21 @@ namespace diceblackjack
                             Console.ResetColor();
                             playAgain = Console.ReadLine().Trim().ToLower();
                             if (playAgain == "yes".Trim().ToLower())
-                            {
-                                playerPoints = 0;
-                                dealerPoints = 0;
-                            }
+                            { }
+                            else break;
                         }
                         trowOrStop = Console.ReadLine().Trim().ToLower();
-                    }
-                    if (trowOrStop == "stop".Trim().ToLower())
-                    { if (dealerPoints > playerPoints)
+                        }
+                        if (trowOrStop == "stop".Trim().ToLower())
+                        { if (dealerPoints > playerPoints)
                         {
                             Console.ForegroundColor = ConsoleColor.Red;
                             Console.WriteLine("You lost sadly the dealer gor more points then you... wanna try again? its better luck next time");
                             Console.ResetColor();
                             playAgain = Console.ReadLine().Trim().ToLower();
                             if (playAgain == "yes".Trim().ToLower())
-                            {
-                                playerPoints = 0;
-                                dealerPoints = 0;
-                            }
+                            { }
                             else break;
-
-
                         }
 
                         if (dealerPoints < 17)
@@ -106,10 +97,7 @@ namespace diceblackjack
                             Console.ResetColor();
                             playAgain = Console.ReadLine().Trim().ToLower();
                             if (playAgain == "yes".Trim().ToLower())
-                            {
-                                playerPoints = 0;
-                                dealerPoints = 0;
-                            }
+                            { }
                             else break;
                         }
                         if (playerPoints == 21 && dealerPoints >= 17 || playerPoints > dealerPoints && dealerPoints >= 17)
@@ -119,10 +107,7 @@ namespace diceblackjack
                             Console.ResetColor();
                             playAgain = Console.ReadLine().Trim().ToLower();
                             if (playAgain == "yes".Trim().ToLower())
-                            {
-                                playerPoints = 0;
-                                dealerPoints = 0;
-                            }
+                            { }
                             else break;
                         }
 
