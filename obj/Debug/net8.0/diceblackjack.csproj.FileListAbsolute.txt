@@ -1,0 +1,14 @@
+C:\Users\Khadjimurad.magomed\source\repos\diceblackjack\bin\Debug\net8.0\diceblackjack.exe
+C:\Users\Khadjimurad.magomed\source\repos\diceblackjack\bin\Debug\net8.0\diceblackjack.deps.json
+C:\Users\Khadjimurad.magomed\source\repos\diceblackjack\bin\Debug\net8.0\diceblackjack.runtimeconfig.json
+C:\Users\Khadjimurad.magomed\source\repos\diceblackjack\bin\Debug\net8.0\diceblackjack.dll
+C:\Users\Khadjimurad.magomed\source\repos\diceblackjack\bin\Debug\net8.0\diceblackjack.pdb
+C:\Users\Khadjimurad.magomed\source\repos\diceblackjack\obj\Debug\net8.0\diceblackjack.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Khadjimurad.magomed\source\repos\diceblackjack\obj\Debug\net8.0\diceblackjack.AssemblyInfoInputs.cache
+C:\Users\Khadjimurad.magomed\source\repos\diceblackjack\obj\Debug\net8.0\diceblackjack.AssemblyInfo.cs
+C:\Users\Khadjimurad.magomed\source\repos\diceblackjack\obj\Debug\net8.0\diceblackjack.csproj.CoreCompileInputs.cache
+C:\Users\Khadjimurad.magomed\source\repos\diceblackjack\obj\Debug\net8.0\diceblackjack.dll
+C:\Users\Khadjimurad.magomed\source\repos\diceblackjack\obj\Debug\net8.0\refint\diceblackjack.dll
+C:\Users\Khadjimurad.magomed\source\repos\diceblackjack\obj\Debug\net8.0\diceblackjack.pdb
+C:\Users\Khadjimurad.magomed\source\repos\diceblackjack\obj\Debug\net8.0\diceblackjack.genruntimeconfig.cache
+C:\Users\Khadjimurad.magomed\source\repos\diceblackjack\obj\Debug\net8.0\ref\diceblackjack.dll
