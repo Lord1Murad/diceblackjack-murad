@@ -7,11 +7,12 @@ namespace diceblackjack
     {
         static void Main(string[] args)
         {
+
+            Console.WriteLine("HIII you wanted to play blackjack with dice right? well then trowe the dice by saying Trow");
+            Console.WriteLine("Btw you are playing with my pc(dealer) and if he has more points then you at the end of the game, you will lose ;3");
             string playAgain = "yes".Trim().ToLower();
             while (playAgain == "yes".Trim().ToLower()) { 
-                Console.WriteLine("HIII you wanted to play blackjack with dice right? well then trowe the dice by saying Trow");
                 Console.WriteLine("Ah right you stop by saying Stop");
-                Console.WriteLine("Btw you are playing with my pc(dealer) and if he has more points then you at the end of the game, you will lose ;3");
                 Console.WriteLine("If you wanna play again just say yes when you are done W.W");
                 Random dicePlayer = new Random();
                 int randomNumber = dicePlayer.Next(1, 7);
@@ -36,8 +37,9 @@ namespace diceblackjack
                             Console.ResetColor();
                             playAgain = Console.ReadLine().Trim().ToLower();
                             if (playAgain == "yes".Trim().ToLower())
-                            { }
-                            else break;
+                            {
+                                break;
+                            }
                         }
                         if (playerPoints > 21)
                         {
@@ -46,8 +48,9 @@ namespace diceblackjack
                             Console.ResetColor();
                             playAgain = Console.ReadLine().Trim().ToLower();
                             if (playAgain == "yes".Trim().ToLower())
-                            { }
-                            else break;
+                            { 
+                                break;
+                            }
                         }
                         trowOrStop = Console.ReadLine().Trim().ToLower();
                     }
@@ -66,8 +69,9 @@ namespace diceblackjack
                             Console.ResetColor();
                             playAgain = Console.ReadLine().Trim().ToLower();
                             if (playAgain == "yes".Trim().ToLower())
-                            { }
-                            else break;
+                            {
+                                break;
+                            }
                         }
                         trowOrStop = Console.ReadLine().Trim().ToLower();
                         }
@@ -79,8 +83,9 @@ namespace diceblackjack
                             Console.ResetColor();
                             playAgain = Console.ReadLine().Trim().ToLower();
                             if (playAgain == "yes".Trim().ToLower())
-                            { }
-                            else break;
+                            {
+                                break;
+                            }
                         }
 
                         if (dealerPoints < 17)
@@ -97,8 +102,9 @@ namespace diceblackjack
                             Console.ResetColor();
                             playAgain = Console.ReadLine().Trim().ToLower();
                             if (playAgain == "yes".Trim().ToLower())
-                            { }
-                            else break;
+                            {
+                                break;
+                            }
                         }
                         if (playerPoints == 21 && dealerPoints >= 17 || playerPoints > dealerPoints && dealerPoints >= 17)
                         {
@@ -107,8 +113,9 @@ namespace diceblackjack
                             Console.ResetColor();
                             playAgain = Console.ReadLine().Trim().ToLower();
                             if (playAgain == "yes".Trim().ToLower())
-                            { }
-                            else break;
+                            { 
+                                break; 
+                            }
                         }
 
                     }

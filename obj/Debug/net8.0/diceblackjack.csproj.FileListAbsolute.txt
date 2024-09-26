@@ -12,3 +12,4 @@ C:\Users\Khadjimurad.magomed\source\repos\diceblackjack\obj\Debug\net8.0\refint\
 C:\Users\Khadjimurad.magomed\source\repos\diceblackjack\obj\Debug\net8.0\diceblackjack.pdb
 C:\Users\Khadjimurad.magomed\source\repos\diceblackjack\obj\Debug\net8.0\diceblackjack.genruntimeconfig.cache
 C:\Users\Khadjimurad.magomed\source\repos\diceblackjack\obj\Debug\net8.0\ref\diceblackjack.dll
+C:\Users\Khadjimurad.magomed\source\repos\diceblackjack\obj\Debug\net8.0\diceblackjack.sourcelink.json
